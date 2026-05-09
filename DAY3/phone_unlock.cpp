@@ -7,20 +7,24 @@ Use do-while loop and unlock only when correct passcode is entered.
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int passcode;
+#include <iostream>
+using namespace std;
 
-    do
-    {
+int main() {
+    string passcode;
+    string correct = "1234";
+
+    while (true) {
+        cout << "Enter passcode: ";
         cin >> passcode;
-        if (passcode != 1111)
-        {
+
+        if (passcode == correct) {
+            cout << "Access granted\n";
+            break;   // exits loop
+        } else {
             cout << "Incorrect Passcode. Try Again.\n";
         }
-    } while (passcode != 1111);
-
-    cout << "Phone Unlocked!";
+    }
 
     return 0;
 }

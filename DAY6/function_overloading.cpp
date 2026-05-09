@@ -10,7 +10,7 @@ public:
     students()
     {
         roll_no = 0;
-        name = "Your Name Please";
+        name = "add ur name"; 
     }
     // Parameterized constructor
 

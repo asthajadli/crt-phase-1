@@ -1,3 +1,5 @@
+//the class specifies the friend function which can access the private members of the class
+
 #include <iostream>
 using namespace std;
 

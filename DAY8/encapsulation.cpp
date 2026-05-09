@@ -1,5 +1,4 @@
-// Encapsulation is the process of hiding the internal details of an object and providing a public interface to interact with it. It allows us to protect the data from unauthorized access and modification, and it also helps to improve the maintainability and flexibility of the code.
-// Abstraction is the process of hiding the implementation details of an object and providing a simple interface to interact with it. It allows us to focus on what an object does rather than how it does it, and it also helps to improve the modularity and reusability of the code.
+// encapsulation is the process of hiding the internal details of an object and providing a public interface to interact with it. It allows us to protect the data from unauthorized access and modification, and it also helps to improve the maintainability and flexibility of the code.
 
 #include <iostream>
 using namespace std;

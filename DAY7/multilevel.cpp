@@ -1,26 +1,28 @@
 #include <iostream>
 
 using namespace std;
-// Base Class or Parent class
-class Player
+
+
+// parent class
+class player
 {
 public:
     string name;
     int runs;
 
-    void setName(string n)
+    void set_name(string n)
     {
         name = n;
     }
-    void setRuns(int r)
+    void set_runs(int r)
     {
         runs = r;
     }
 };
 
 
-// Dervied Class or Child class
-class Cricketer : public Player
+// child class
+class cricketer : public player
 {
 public:
     string country;
@@ -30,8 +32,8 @@ public:
     }
 };
 
-// Dervied Class or Child class of Cricketer class
-class Batter : public Cricketer
+// child class of cricketer class
+class batter : public cricketer
 {
 public:
     int centuries;
@@ -41,20 +43,20 @@ public:
     }
     void show()
     {
-        cout << "Name: " << name << endl;
-        cout << "Runs: " << runs << endl;
-        cout << "Country: " << country << endl;
-        cout << "Centuries: " << centuries << endl;
+        cout << "name: " << name << endl;
+        cout << "runs: " << runs << endl;
+        cout << "country: " << country << endl;
+        cout << "centuries: " << centuries << endl;
     }
 };
 int main()
 {
     int runs;
     cin >> runs;
-    Batter c1;
-    c1.setCountry("India");
-    c1.setName("Virat kohli");
-    c1.setRuns(runs);
+    batter c1;
+    c1.setCountry("india");
+    c1.set_name("virat kohli");
+    c1.set_runs(runs);
     c1.setCenturies(43);
     c1.show();
     return 0;

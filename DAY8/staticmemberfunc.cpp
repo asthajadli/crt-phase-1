@@ -1,3 +1,5 @@
+//the value specified in static variable is shared by all the objects of the class
+
 #include <iostream>
 using namespace std;
 

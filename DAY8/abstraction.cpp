@@ -1,3 +1,5 @@
+// abstraction is the process of hiding the implementation details of an object and providing a simple interface to interact with it.
+
 #include <iostream>
 using namespace std;
 
@@ -26,9 +28,6 @@ class atm{
     void show_balance(){
         cout<< "current balance: " << balance << endl;
     }
-
-
-
 
 };
 
