@@ -1,1 +1,1 @@
-# day1
+DAILY CODES
